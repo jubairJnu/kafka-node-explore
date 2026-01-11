@@ -6,6 +6,6 @@ const kafka = new Kafka({
   brokers: ["kafka:9092"],
 });
 
-export const topic = "order-created";
+
 
 export const consumer = kafka.consumer({ groupId: "order-group" });
